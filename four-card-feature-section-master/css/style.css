@@ -48,7 +48,8 @@ p{
   
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   max-width: 100%;
 }
 .card{
