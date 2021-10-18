@@ -34,6 +34,7 @@ Users should be able to:
 ![tablet screenshot](./tablet-screenshot.png)
 
 **Mobile View Screenshot**
+
 ![mobile screenshot](./mobile-screenshot.png)
 
 
