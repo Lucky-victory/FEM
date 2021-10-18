@@ -32,7 +32,7 @@ p{
   margin: 1em auto;
 }
 .content-container p{
-  padding: 0.5em;
+  padding: 0.375em;
   
 }
 .cards-container {
@@ -89,7 +89,7 @@ p{
 .heading{
   font-size: 1.7em;
   color:  hsl(234, 12%, 34%);
-  margin-bottom: 0.375em;
+  margin-bottom: 0.25em;
   white-space: nowrap
 }
 .light-heading{
