@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-size: 15px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  
+}
+.cards-container{
+  padding: 2em 1em;
+  width: 100%;
+}
+.card{
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 15px 25px #0006;
+  width: 100%;
+  max-width: 400px;
+  min-height: 250px;
+  margin: 1em auto;
+  /* display: flex; */
+  flex-direction: column;
+}
