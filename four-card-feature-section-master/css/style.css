@@ -15,21 +15,28 @@ p{
   display: flex;
   flex-direction: column;
   background: hsl(0, 0%, 98%);
-  padding:3em 2em;
+  padding:3em 1.5em;
   
   
 }
 .cards-container{
   width: 100%;
+  padding: 0.5em;
+  margin: 1em auto;
 }
 .content-container{
-  padding: 0;
+  /* padding: 0.5em; */
+  width: 100%;
+  text-align: center;
+}
+.content-container p{
+  padding: 0.5em;
   
 }
 .card{
-  padding: 1em;
+  padding:1.625em ;
   border-radius: 0.5em;
-  box-shadow: 0 15px 25px hsl(229, 6%, 66%);
+  box-shadow: 0 10px 20px hsl(229, 6%, 66%);
   width: 100%;
   max-width: 380px;
   min-height: 250px;
@@ -40,6 +47,9 @@ p{
 .card__title{
   font-weight: 600;
   text-transform: capitalize;
+  font-size: 1.3em!important;
+  color:  hsl(234, 12%, 34%);
+  
 }
 .supervisor--card{
   border-top: 6px solid hsl(180, 62%, 55%);
@@ -58,13 +68,17 @@ p{
   color: hsl(229, 6%, 66%);
 }
 .heading{
+  font-size: 1.7em;
   color:  hsl(234, 12%, 34%);
-  margin-bottom: 1.2em;
+  margin-bottom: 0.375em;
+  white-space: nowrap
 }
 .light-heading{
   font-weight: 200;
+
 }
 .bold-heading{
   font-weight: 600;
-  color: hsl(234, 12%, 34%);
+  
+  
 }
