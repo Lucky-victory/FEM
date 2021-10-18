@@ -114,7 +114,7 @@ p{
 }
 
 /* breakpoint */
-@media all and (min-width:1024px){
+@media all and (min-width:1100px){
   .cards-container-inner{
     margin: 0 1em;
   }
@@ -123,7 +123,7 @@ p{
   }
 
 }
-@media all and (min-width:500px) and (max-width:1024px){
+@media all and (min-width:500px) and (max-width:1099px){
   .cards-container-inner{
     flex-direction: row;
     
