@@ -49,6 +49,7 @@ p{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   max-width: 100%;
 }
@@ -57,9 +58,9 @@ p{
   border-radius: 0.5em;
   box-shadow: 0 10px 20px hsl(229, 6%, 66%);
   width: 100%;
-  max-width: 350px;
+  max-width: 320px;
   min-height: 200px;
-  margin: 2em auto;
+  margin: 1em ;
   /* display: flex; */
   flex-direction: column;
   flex-shrink: 0;
@@ -104,8 +105,14 @@ p{
 }
 
 /* breakpoint */
-@media all and (min-width:900px){
-  .team-builder--card{
-    /* margin-top: -3em; */
+@media all and (min-width:1000px){
+  .cards-container-inner{
+    margin: 0 1em;
+  }
+}
+@media all and (max-width:998px){
+  .cards-container-inner{
+    flex-direction: row;
+    
   }
 }
