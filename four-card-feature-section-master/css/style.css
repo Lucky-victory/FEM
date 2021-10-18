@@ -16,6 +16,7 @@ body{
 .cards-container{
   padding: 2em 1em;
   width: 100%;
+  background: hsl(0, 0%, 98%);
 }
 .card{
   padding: 1em;
@@ -28,13 +29,25 @@ body{
   /* display: flex; */
   flex-direction: column;
 }
-
+.supervisor--card{
+  border-top: 6px solid;
+}
+.team-builder--card{
+  border-top: 6px solid;
+}
+.karma--card{
+  border-top: 6px solid;
+}
+.calculator--card{
+  border-top: 6px solid;
+}
 .grey--text{
-  
+  color: hsl(229, 6%, 66%);
 }
 .light-heading{
   font-weight: 200;
 }
 .bold-heading{
   font-weight: 600;
+  color: hsl(234, 12%, 34%);
 }
