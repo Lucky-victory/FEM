@@ -23,7 +23,7 @@ p{
   flex-direction: column;
   background: hsl(0, 0%, 98%);
   padding:3em 1.5em;
-  max-width: 1440px;
+  max-width: 1300px;
   margin: auto;
   
 }
@@ -114,7 +114,7 @@ p{
 }
 
 /* breakpoint */
-@media all and (min-width:1000px){
+@media all and (min-width:1024px){
   .cards-container-inner{
     margin: 0 1em;
   }
@@ -123,7 +123,7 @@ p{
   }
 
 }
-@media all and (min-width:500px) and (max-width:998px){
+@media all and (min-width:500px) and (max-width:1024px){
   .cards-container-inner{
     flex-direction: row;
     
