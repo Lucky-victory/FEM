@@ -10,10 +10,10 @@ body{
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/*   display: flex;
+justify-content: center;
+align-items: center;
+ */}
 p{
   line-height: 1.4;
   font-weight: 400;
@@ -62,7 +62,7 @@ p{
   border-radius: 0.5em;
   box-shadow: 0 10px 20px hsl(229, 6%, 66%);
   width: 100%;
-  max-width: 320px;
+  max-width: 330px;
   min-height: 200px;
   margin: 1em ;
   /* display: flex; */
@@ -76,6 +76,14 @@ p{
   color:  hsl(234, 12%, 34%);
   margin-bottom: 0.625em;
 }
+.card__image-box{
+  text-align: right;
+}
+.card__image{
+  margin-top: 2em;
+  
+}
+
 .supervisor--card{
   border-top: 6px solid hsl(180, 62%, 55%);
 }
