@@ -37,11 +37,15 @@ p{
   margin: 1em auto;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: space-around;
   align-items: center;
 }
 .cards-container-inner{
-  flex: 1;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
 }
 .card{
   padding:1.625em ;
