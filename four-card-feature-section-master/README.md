@@ -26,9 +26,14 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
+**Desktop View Screenshot**
 
 ![desktop screenshot](./desktop-screenshot.png)
+**Tablet View Screenshot**
+
 ![tablet screenshot](./tablet-screenshot.png)
+
+**Mobile View Screenshot**
 ![mobile screenshot](./mobile-screenshot.png)
 
 
@@ -65,10 +70,10 @@ Positioning the middle cards was the toughest part of this challenge, i would fo
 
 ## Author
 
-- Website - [Lucky Victory](https://lucky-victory.dev)
+- Website - [Lucky-victory.dev](https://lucky-victory.dev)
 - Frontend Mentor - [@luckyvictory](https://www.frontendmentor.io/profile/lucky-victory)
 - Twitter - [@lucky_victory1](https://www.twitter.com/lucky_victory1)
-- LinkedIn - [Lucky victory success](ttps://www.linkedin.com/in/lucky-victory-success-42719b1a5)
+- LinkedIn - [Lucky victory success](https://www.linkedin.com/in/lucky-victory-success-42719b1a5)
 
 
 
