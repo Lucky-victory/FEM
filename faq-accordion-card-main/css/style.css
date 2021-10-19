@@ -17,7 +17,7 @@ body{
   background: linear-gradient();
 }
 .faq-container{
-  background: linear-gradient(-45deg,var(--soft-blue),var(--soft-violet));
+  /* background: linear-gradient(-45deg,var(--soft-blue),var(--soft-violet)); */
   padding: 2em;
   font-size: 14px;
   display: flex;
