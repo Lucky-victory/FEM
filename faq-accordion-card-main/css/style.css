@@ -27,13 +27,14 @@ body{
   padding: 1em;
   border-radius: 0.625em;
   background: #fff;
-  max-width: 300px;
+  max-width: 350px;
   margin: auto;
 }
 .faq-contents-container h1{
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 1em;
+  text-align: center;
 }
 .faq{
   margin-bottom: 1em;
@@ -49,4 +50,22 @@ body{
 .faq__title:hover{
   color: coral;
 }
-.faq__
+.faq-images-box{
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  min-height: 200px;
+  text-align: center;
+  margin: 1.4em auto;
+}
+.faq__image{
+  position: absolute;
+}
+.mobile--image{
+  bottom: 0;
+  left: 0;
+}
+.mobile--image2{
+  bottom: -1em;
+  left: 2em;
+}
