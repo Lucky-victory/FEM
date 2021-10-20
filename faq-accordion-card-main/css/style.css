@@ -28,10 +28,11 @@ body {
   background: linear-gradient(to bottom,var(--soft-violet), var(--soft-blue));
   padding: 10em 1em;
   margin:  auto;
+  width: 100%;
 }
 
 .faq-container {
-  padding: 0 1em 4em;
+  padding: 0 0em 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,21 +40,22 @@ body {
   border-radius: 2em;
   margin: auto;
   margin-top: 5em;
-  max-width: 340px;
+  max-width: 350px;
   box-shadow: 0 5px 30px var(--dark-grayish-blue);
+  width: 100%;
 }
 
 .faq-contents-container {
-  flex-shrink: 0;
   margin: auto;
-
+padding: 0 2em;
+width: 100%;
 }
 
 .faq-contents-container h1 {
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 1.2em;
-  margin-top: 1.2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
   text-align: center;
   color: var(--very-dark-desaturated-blue);
 font-size: 3em;
@@ -63,22 +65,25 @@ font-size: 3em;
   margin-bottom: 1.2em;
   border-bottom: 1.5px solid var(--light-grayish-blue);
   font-size: 14px;
+  position: relative;
+  width: 100%;
+  padding: 0 0.5em;
 }
-
+.faq__checkbox{
+  position: absolute;
+  display: none;
+}
 .faq-title--wrapper {
   margin-bottom: 1.2em;
   position: relative;
+  display: block;
+  width: 100%;
 }
 
 .faq__title {
   font-weight: 400;
   cursor: pointer;
-  margin-right: 4em;
   color: var(--very-dark-grayish-blue);
-}
-.faq__title.active--faq{
-  color: var(--very-dark-desaturated-blue);
-  
 }
 .faq__title:hover {
   color: var(--soft-red);
@@ -89,14 +94,27 @@ font-size: 3em;
   position: absolute;
   right: 0;
   top: 0;
+  transition: 0.3s ease-in-out;
+
 }
 
+.faq__checkbox:checked ~ .faq-title--wrapper> .faq__title{
+  color: var(--very-dark-desaturated-blue);
+  font-weight: 700;
+}
+.faq__checkbox:checked ~ .faq-title--wrapper> .faq__icon{
+transform: rotate(180deg);
+transition: 0.3s ease-in-out
+}
 .faq__content {
   font-weight: 400;
   color: var(--dark-grayish-blue);
   display: none;
   padding-bottom: 1.2em;
+  width: 100%;
 
+}.faq__checkbox:checked ~ .faq__content{
+  display: inline-block;
 }
 
 .faq-images-box {
@@ -133,10 +151,10 @@ font-size: 3em;
 @media all and (min-width:900px) {
   .faq-container {
     flex-direction: row;
-    max-width: 800px;
+    max-width: 840px;
     justify-content: space-between;
     padding: 0;
-    padding-right: 5em;
+    padding-right: 4em;
   }
 
   .faq-images-box {
@@ -147,9 +165,11 @@ font-size: 3em;
     min-height: 100%;
   }
 .faq-contents-container{
-  flex-shrink: 0;
+  
+  max-width: 100%;
   margin-top: 2em;
   margin-bottom: 4em;
+  
 }
   .faq-contents-container h1 {
     text-align: left;
